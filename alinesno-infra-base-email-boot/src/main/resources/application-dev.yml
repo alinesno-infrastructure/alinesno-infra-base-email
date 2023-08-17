@@ -1,0 +1,10 @@
+server:
+  port: 30110
+
+# spring 配置
+spring:
+  application:
+    name: alinesno-infra-base-email-boot
+  devtools:
+    restart:
+      enabled: true
