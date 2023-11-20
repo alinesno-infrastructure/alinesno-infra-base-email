@@ -23,7 +23,7 @@ actable:
   table:
     auto: update
   model:
-    pack: com.alinesno.infra.base.email.entity;
+    pack: com.alinesno.infra.base.email.entity
   database:
     type: mysql
   index:

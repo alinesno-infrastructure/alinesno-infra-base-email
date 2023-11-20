@@ -5,7 +5,6 @@ import com.alinesno.infra.common.web.adapter.sso.enable.EnableInfraSsoApi;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 /**
  * 集成一个Java开发示例工具
@@ -14,7 +13,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  */
 @EnableActable
 @EnableInfraSsoApi
-@SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
+@SpringBootApplication
 @MapperScan({"com.alinesno.infra.base.email.mapper"})
 public class BaseEmailApplication {
 
