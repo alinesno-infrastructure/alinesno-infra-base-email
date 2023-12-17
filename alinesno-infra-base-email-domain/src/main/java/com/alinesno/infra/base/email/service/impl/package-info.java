@@ -1,1 +1,1 @@
-package com.alinesno.infra.base.email.api.provider;
+package com.alinesno.infra.base.email.gateway.provider;
